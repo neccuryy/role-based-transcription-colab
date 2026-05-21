@@ -251,3 +251,12 @@ files.download(output_filename)
 * The transcribed text with timestamps and speaker labels will be printed directly into the cell console.
 * The final `.txt` output file will be **downloaded automatically** to your computer.
 * The output file is also saved on the left panel ("Files") right next to your original video file.
+
+## 🛠️ Troubleshooting (FAQ)
+
+* **`CUDA out of memory` error in Cell 4**
+  > **Solution:** The audio file is too large or Colab's memory is cluttered. Try decreasing `batch_size=16` to `batch_size=8` or `4` in Cell 4, or select *Runtime -> Clear all outputs* and restart the session.
+* **The script freezes at `[4/5] Aligning words`**
+  > **Solution:** Double-check the `LANGUAGE` variable. If the audio is in English but set to `"ru"`, the alignment model will hang indefinitely.
+* **`ValueError: HF_TOKEN not found` error**
+  > **Solution:** You forgot to add the token to the Secrets tab (key icon 🔑 on the left panel) or didn't enable the "Notebook access" toggle.
