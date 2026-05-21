@@ -1,3 +1,4 @@
+> 🌍 **Ищете версию на русском языке?** Перейдите в файл [README.md](./README.md) для ознакомления с руководством.
 # 🎙️ Role-Based Transcription using Colab
 
 A step-by-step guide and a ready-to-run script for audio/video transcription with automatic speaker diarization (role assignment) using **WhisperX** and **PyAnnote 3.1** in Google Colab.
@@ -8,7 +9,8 @@ A step-by-step guide and a ready-to-run script for audio/video transcription wit
 
 ## 📂 Repository Structure
 
-* **`README.md`** — Detailed step-by-step documentation and guide.
+* **`README.md`** — Detailed step-by-step setup guide in Russian.
+* **`README_EN.md`** — Detailed step-by-step setup guide in English.
 * **`role-based-transcription-colab.ipynb`** — Ready-to-use interactive notebook for Google Colab. You can download and upload it directly into your Colab workspace to avoid creating cells manually.
 
 ---
