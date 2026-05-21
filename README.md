@@ -1,3 +1,4 @@
+> 🌍 **Looking for the English version?** Check out the [README_EN.md](./README_EN.md) for the English guide.
 # 🎙️ Role-Based Transcription using Colab
 
 Пошаговое руководство и готовый скрипт для транскрибации аудио/видео с автоматическим разделением по ролям (спикерам) с помощью **WhisperX** и **PyAnnote 3.1** в среде Google Colab.
